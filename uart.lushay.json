@@ -1,0 +1,4 @@
+{
+    "board": "tangnano20k",
+    "testBenches": ["uart_tb.v"]
+}
