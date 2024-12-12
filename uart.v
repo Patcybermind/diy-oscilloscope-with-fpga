@@ -2,7 +2,8 @@
 
 module uart
 #(
-    parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
+    parameter DELAY_FRAMES = 234; // 27,000,000 (27Mhz) / 115200 Baud rate
+    parameter ADC_DELAY_FRAMES = DELAY_FRAMES * 16; // 27,000,000 (27Mhz) / 115200 Baud rate
 )
 (
     input clk,
@@ -34,6 +35,7 @@ reg [7:0] dataOut = 0;
 reg txPinRegister = 1;
 reg [2:0] txBitNumber = 0;
 reg [3:0] txByteCounter = 0;
+reg [31:0] adcTransmitCounter = 0;
 
 assign uart_tx = txPinRegister;
 
@@ -61,6 +63,8 @@ localparam TX_STATE_WRITE = 2;
 localparam TX_STATE_STOP_BIT = 3;
 localparam TX_STATE_DEBOUNCE = 4;
 
+// tx hello world
+/*
 always @(posedge clk) begin
     case (txState)
         TX_STATE_IDLE: begin
@@ -117,6 +121,85 @@ always @(posedge clk) begin
                 txCounter <= txCounter + 1;
         end
     endcase
+end
+*/
+// ADC TX
+always @(posedge clk) begin
+ if (adcTransmitCounter == ADC_DELAY_FRAMES) begin
+    adcTransmitCounter <= 0;
+    txState <= TX_STATE_START_BIT;
+    txCounter <= 0;
+    
+ end else
+    adcTransmitCounter <= adcTransmitCounter + 1;
+end
+
+always @(posedge clk) begin
+    case (txState)
+        TX_STATE_IDLE: begin
+            if (btn1 == 0) begin
+                txState <= TX_STATE_START_BIT;
+                txCounter <= 0;
+                //txByteCounter <= 0;
+            end
+            else begin
+                txPinRegister <= 1;
+            end
+        end 
+        TX_STATE_START_BIT: begin
+            txPinRegister <= 0;
+            if ((txCounter + 1) == DELAY_FRAMES) begin
+                txState <= TX_STATE_WRITE;
+                //dataOut <= 'h00; // should be set from the outside
+                txBitNumber <= 0;
+                txCounter <= 0;
+            end else 
+                txCounter <= txCounter + 1;
+        end
+        TX_STATE_WRITE: begin
+            txPinRegister <= dataOut[txBitNumber];
+            if ((txCounter + 1) == DELAY_FRAMES) begin
+                if (txBitNumber == 3'b111) begin
+                    txState <= TX_STATE_STOP_BIT;
+                end else begin
+                    txState <= TX_STATE_WRITE;
+                    txBitNumber <= txBitNumber + 1;
+                end
+                txCounter <= 0;
+            end else 
+                txCounter <= txCounter + 1;
+        end
+        TX_STATE_STOP_BIT: begin
+            txPinRegister <= 1;
+            if ((txCounter + 1) == DELAY_FRAMES) begin
+                //if (txByteCounter == MEMORY_LENGTH - 1) begin
+                    //txState <= TX_STATE_DEBOUNCE;
+                //end else begin
+                    //txByteCounter <= txByteCounter + 1;
+                    //txState <= TX_STATE_START_BIT;
+                //end
+                txState <= TX_STATE_IDLE;
+                txCounter <= 0;
+            end else 
+                txCounter <= txCounter + 1;
+        end
+
+        // should not be doing anything
+        TX_STATE_DEBOUNCE: begin
+            if (txCounter == 23'b111111111111111111) begin
+                if (btn1 == 1) 
+                    txState <= TX_STATE_IDLE;
+            end else
+                txCounter <= txCounter + 1;
+        end
+    endcase
+end
+
+// rx
+always @(posedge clk) begin
+    if (byteReady) begin
+        led <= ~dataIn[5:0];
+    end
 end
 
 // rx
