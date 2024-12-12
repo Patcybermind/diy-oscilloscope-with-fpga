@@ -1,6 +1,6 @@
 `default_nettype none
 
-module top
+module uart
 #(
     parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
 )

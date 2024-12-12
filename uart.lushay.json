@@ -1,4 +1,5 @@
 {
     "board": "tangnano20k",
-    "testBenches": ["uart_tb.v"]
+    "testBenches": ["uart_tb.v"],
+    "topModule": "top"
 }
