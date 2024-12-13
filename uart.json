@@ -21,7 +21,7 @@
         }
       },
       "cells": {
-        "$specify$1017": {
+        "$specify$1751": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -233,6 +233,231 @@
         }
       }
     },
+    "$paramod$__ABC9_DELAY\\DELAY=32'00000000000000000000000000111111": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "hdlname": "__ABC9_DELAY",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:2.1-7.10"
+      },
+      "parameter_default_values": {
+        "DELAY": "00000000000000000000000000111111"
+      },
+      "ports": {
+        "I": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$specify$1751": {
+          "hide_name": 1,
+          "type": "$specify2",
+          "parameters": {
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "FULL": "0",
+            "SRC_DST_PEN": "0",
+            "SRC_DST_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "T_FALL_MAX": "00000000000000000000000000111111",
+            "T_FALL_MIN": "00000000000000000000000000111111",
+            "T_FALL_TYP": "00000000000000000000000000111111",
+            "T_RISE_MAX": "00000000000000000000000000111111",
+            "T_RISE_MIN": "00000000000000000000000000111111",
+            "T_RISE_TYP": "00000000000000000000000000111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:5.5-5.22"
+          },
+          "port_directions": {
+            "DST": "input",
+            "EN": "input",
+            "SRC": "input"
+          },
+          "connections": {
+            "DST": [ 3 ],
+            "EN": [ "1" ],
+            "SRC": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "I": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:2.29-2.30"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:2.39-2.40"
+          }
+        }
+      }
+    },
+    "$paramod$__ABC9_DELAY\\DELAY=32'00000000000000000000001001000000": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "hdlname": "__ABC9_DELAY",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:2.1-7.10"
+      },
+      "parameter_default_values": {
+        "DELAY": "00000000000000000000001001000000"
+      },
+      "ports": {
+        "I": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$specify$1751": {
+          "hide_name": 1,
+          "type": "$specify2",
+          "parameters": {
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "FULL": "0",
+            "SRC_DST_PEN": "0",
+            "SRC_DST_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "T_FALL_MAX": "00000000000000000000001001000000",
+            "T_FALL_MIN": "00000000000000000000001001000000",
+            "T_FALL_TYP": "00000000000000000000001001000000",
+            "T_RISE_MAX": "00000000000000000000001001000000",
+            "T_RISE_MIN": "00000000000000000000001001000000",
+            "T_RISE_TYP": "00000000000000000000001001000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:5.5-5.22"
+          },
+          "port_directions": {
+            "DST": "input",
+            "EN": "input",
+            "SRC": "input"
+          },
+          "connections": {
+            "DST": [ 3 ],
+            "EN": [ "1" ],
+            "SRC": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "I": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:2.29-2.30"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/abc9_model.v:2.39-2.40"
+          }
+        }
+      }
+    },
+    "$paramod\\ALU\\ALU_MODE=s32'00000000000000000000000000000010": {
+      "attributes": {
+        "hdlname": "ALU",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:931.1-1014.10"
+      },
+      "parameter_default_values": {
+        "ALU_MODE": "00000000000000000000000000000010"
+      },
+      "ports": {
+        "SUM": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "COUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "CIN": {
+          "direction": "input",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CIN": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:936.24-936.27"
+          }
+        },
+        "COUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:933.7-933.9"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:934.7-934.9"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:935.7-935.9"
+          }
+        },
+        "SUM": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:937.8-937.11"
+          }
+        }
+      }
+    },
     "ADC": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
@@ -249,7 +474,6 @@
     "ALU": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:931.1-1014.10"
       },
       "parameter_default_values": {
@@ -1097,9 +1321,8 @@
     },
     "DFFE": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_flop": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:184.1-198.10"
       },
       "parameter_default_values": {
@@ -2003,9 +2226,8 @@
     },
     "DFFRE": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_flop": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:259.1-276.10"
       },
       "parameter_default_values": {
@@ -6687,7 +6909,7 @@
         }
       },
       "cells": {
-        "$specify$189": {
+        "$specify$201": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8439,9 +8661,8 @@
     },
     "LUT1": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_lut": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:2.1-8.10"
       },
       "parameter_default_values": {
@@ -8458,7 +8679,7 @@
         }
       },
       "cells": {
-        "$specify$72": {
+        "$specify$84": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8509,9 +8730,8 @@
     },
     "LUT2": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_lut": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:11.1-19.10"
       },
       "parameter_default_values": {
@@ -8532,7 +8752,7 @@
         }
       },
       "cells": {
-        "$specify$73": {
+        "$specify$85": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8563,7 +8783,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$74": {
+        "$specify$86": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8621,9 +8841,8 @@
     },
     "LUT3": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_lut": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:22.1-32.10"
       },
       "parameter_default_values": {
@@ -8648,7 +8867,7 @@
         }
       },
       "cells": {
-        "$specify$75": {
+        "$specify$87": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8679,7 +8898,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$76": {
+        "$specify$88": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8710,7 +8929,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$77": {
+        "$specify$89": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8775,9 +8994,8 @@
     },
     "LUT4": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_lut": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:35.1-47.10"
       },
       "parameter_default_values": {
@@ -8806,7 +9024,7 @@
         }
       },
       "cells": {
-        "$specify$78": {
+        "$specify$90": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8837,7 +9055,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$79": {
+        "$specify$91": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8868,7 +9086,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$80": {
+        "$specify$92": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8899,7 +9117,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$81": {
+        "$specify$93": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12004,7 +12222,7 @@
         }
       },
       "cells": {
-        "$specify$108": {
+        "$specify$120": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12035,7 +12253,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$109": {
+        "$specify$121": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12066,7 +12284,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$110": {
+        "$specify$122": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12132,7 +12350,6 @@
     "MUX2_LUT5": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:113.1-125.10"
       },
       "ports": {
@@ -12154,7 +12371,7 @@
         }
       },
       "cells": {
-        "$specify$111": {
+        "$specify$123": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12185,7 +12402,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$112": {
+        "$specify$124": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12216,7 +12433,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$113": {
+        "$specify$125": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12282,7 +12499,6 @@
     "MUX2_LUT6": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:127.1-139.10"
       },
       "ports": {
@@ -12304,7 +12520,7 @@
         }
       },
       "cells": {
-        "$specify$114": {
+        "$specify$126": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12335,7 +12551,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$115": {
+        "$specify$127": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12366,7 +12582,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$116": {
+        "$specify$128": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12432,7 +12648,6 @@
     "MUX2_LUT7": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
         "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:141.1-153.10"
       },
       "ports": {
@@ -12454,7 +12669,7 @@
         }
       },
       "cells": {
-        "$specify$117": {
+        "$specify$129": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12485,7 +12700,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$118": {
+        "$specify$130": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12516,7 +12731,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$119": {
+        "$specify$131": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12604,7 +12819,7 @@
         }
       },
       "cells": {
-        "$specify$120": {
+        "$specify$132": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12635,7 +12850,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$121": {
+        "$specify$133": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -12666,7 +12881,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$122": {
+        "$specify$134": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -13582,7 +13797,7 @@
         }
       },
       "cells": {
-        "$specify$190": {
+        "$specify$202": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16412,7 +16627,7 @@
         }
       },
       "cells": {
-        "$specify$214": {
+        "$specify$226": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16443,7 +16658,7 @@
             "SRC": [ 8, 9, 10, 11 ]
           }
         },
-        "$specify$215": {
+        "$specify$227": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16478,7 +16693,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$216": {
+        "$specify$228": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16513,7 +16728,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$217": {
+        "$specify$229": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16548,7 +16763,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$218": {
+        "$specify$230": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -16668,7 +16883,7 @@
         }
       },
       "cells": {
-        "$specify$219": {
+        "$specify$231": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16699,7 +16914,7 @@
             "SRC": [ 10, 11, 12, 13 ]
           }
         },
-        "$specify$220": {
+        "$specify$232": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16734,7 +16949,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$221": {
+        "$specify$233": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16769,7 +16984,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$222": {
+        "$specify$234": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16804,7 +17019,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$223": {
+        "$specify$235": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -16926,7 +17141,7 @@
         }
       },
       "cells": {
-        "$specify$224": {
+        "$specify$236": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16957,7 +17172,7 @@
             "SRC": [ 14, 15, 16, 17 ]
           }
         },
-        "$specify$225": {
+        "$specify$237": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16992,7 +17207,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$226": {
+        "$specify$238": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17027,7 +17242,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$227": {
+        "$specify$239": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17062,7 +17277,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$228": {
+        "$specify$240": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -17661,7 +17876,7 @@
         }
       },
       "cells": {
-        "$specify$229": {
+        "$specify$241": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -17698,7 +17913,7 @@
             "SRC": [ 100 ]
           }
         },
-        "$specify$230": {
+        "$specify$242": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17733,7 +17948,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$231": {
+        "$specify$243": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17768,7 +17983,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$232": {
+        "$specify$244": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17803,7 +18018,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$233": {
+        "$specify$245": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17838,7 +18053,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$234": {
+        "$specify$246": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17873,7 +18088,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$235": {
+        "$specify$247": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17908,7 +18123,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$236": {
+        "$specify$248": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17943,7 +18158,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$237": {
+        "$specify$249": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -17978,7 +18193,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$238": {
+        "$specify$250": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18013,7 +18228,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$239": {
+        "$specify$251": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18048,7 +18263,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$240": {
+        "$specify$252": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18083,7 +18298,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$241": {
+        "$specify$253": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18584,7 +18799,7 @@
         }
       },
       "cells": {
-        "$specify$242": {
+        "$specify$254": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -18621,7 +18836,7 @@
             "SRC": [ 108 ]
           }
         },
-        "$specify$243": {
+        "$specify$255": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18656,7 +18871,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$244": {
+        "$specify$256": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18691,7 +18906,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$245": {
+        "$specify$257": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18726,7 +18941,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$246": {
+        "$specify$258": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18761,7 +18976,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$247": {
+        "$specify$259": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18796,7 +19011,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$248": {
+        "$specify$260": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18831,7 +19046,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$249": {
+        "$specify$261": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18866,7 +19081,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$250": {
+        "$specify$262": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18901,7 +19116,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$251": {
+        "$specify$263": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18936,7 +19151,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$252": {
+        "$specify$264": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -18971,7 +19186,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$253": {
+        "$specify$265": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -19006,7 +19221,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$254": {
+        "$specify$266": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -20995,7 +21210,7 @@
         }
       },
       "cells": {
-        "$specify$82": {
+        "$specify$94": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21026,7 +21241,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$83": {
+        "$specify$95": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21057,7 +21272,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$84": {
+        "$specify$96": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21088,7 +21303,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$85": {
+        "$specify$97": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21119,7 +21334,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$86": {
+        "$specify$98": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21234,38 +21449,7 @@
         }
       },
       "cells": {
-        "$specify$87": {
-          "hide_name": 1,
-          "type": "$specify2",
-          "parameters": {
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "FULL": "0",
-            "SRC_DST_PEN": "0",
-            "SRC_DST_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000000001",
-            "T_FALL_MAX": "00000000000000000000011101100101",
-            "T_FALL_MIN": "00000000000000000000011101100101",
-            "T_FALL_TYP": "00000000000000000000011101100101",
-            "T_RISE_MAX": "00000000000000000000010100101011",
-            "T_RISE_MIN": "00000000000000000000010100101011",
-            "T_RISE_TYP": "00000000000000000000010100101011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:63.3-63.40"
-          },
-          "port_directions": {
-            "DST": "input",
-            "EN": "input",
-            "SRC": "input"
-          },
-          "connections": {
-            "DST": [ 2 ],
-            "EN": [ "1" ],
-            "SRC": [ 3 ]
-          }
-        },
-        "$specify$88": {
+        "$specify$100": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21296,7 +21480,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$89": {
+        "$specify$101": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21327,7 +21511,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$90": {
+        "$specify$102": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21358,7 +21542,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$91": {
+        "$specify$103": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21389,7 +21573,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$92": {
+        "$specify$104": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21418,6 +21602,37 @@
             "DST": [ 2 ],
             "EN": [ "1" ],
             "SRC": [ 8 ]
+          }
+        },
+        "$specify$99": {
+          "hide_name": 1,
+          "type": "$specify2",
+          "parameters": {
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "FULL": "0",
+            "SRC_DST_PEN": "0",
+            "SRC_DST_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
+            "T_FALL_MAX": "00000000000000000000011101100101",
+            "T_FALL_MIN": "00000000000000000000011101100101",
+            "T_FALL_TYP": "00000000000000000000011101100101",
+            "T_RISE_MAX": "00000000000000000000010100101011",
+            "T_RISE_MIN": "00000000000000000000010100101011",
+            "T_RISE_TYP": "00000000000000000000010100101011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:63.3-63.40"
+          },
+          "port_directions": {
+            "DST": "input",
+            "EN": "input",
+            "SRC": "input"
+          },
+          "connections": {
+            "DST": [ 2 ],
+            "EN": [ "1" ],
+            "SRC": [ 3 ]
           }
         }
       },
@@ -21515,7 +21730,7 @@
         }
       },
       "cells": {
-        "$specify$93": {
+        "$specify$105": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21546,7 +21761,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$94": {
+        "$specify$106": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21577,7 +21792,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$95": {
+        "$specify$107": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21608,7 +21823,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$96": {
+        "$specify$108": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21639,7 +21854,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$97": {
+        "$specify$109": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21670,7 +21885,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$98": {
+        "$specify$110": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21701,7 +21916,7 @@
             "SRC": [ 8 ]
           }
         },
-        "$specify$99": {
+        "$specify$111": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21838,7 +22053,7 @@
         }
       },
       "cells": {
-        "$specify$100": {
+        "$specify$112": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21869,7 +22084,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$101": {
+        "$specify$113": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21900,7 +22115,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$102": {
+        "$specify$114": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21931,7 +22146,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$103": {
+        "$specify$115": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21962,7 +22177,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$104": {
+        "$specify$116": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21993,7 +22208,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$105": {
+        "$specify$117": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -22024,7 +22239,7 @@
             "SRC": [ 8 ]
           }
         },
-        "$specify$106": {
+        "$specify$118": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -22055,7 +22270,7 @@
             "SRC": [ 9 ]
           }
         },
-        "$specify$107": {
+        "$specify$119": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -23409,7 +23624,7 @@
         "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\top.v:4.1-53.10"
       },
       "parameter_default_values": {
-        "ADC_DELAY_FRAMES": "00000000000000001100001101010000",
+        "ADC_DELAY_FRAMES": "00000000000000000000111010100000",
         "DELAY_FRAMES": "00000000000000000000000011101010"
       },
       "ports": {
@@ -23592,6 +23807,39 @@
             "O": [ 28 ]
           }
         },
+        "dataOut_GND_G": {
+          "hide_name": 0,
+          "type": "GND",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "G": "output"
+          },
+          "connections": {
+            "G": [ 29 ]
+          }
+        },
+        "dataOut_LUT1_I0": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 30 ],
+            "I0": [ 29 ]
+          }
+        },
         "led_OBUF_O": {
           "hide_name": 0,
           "type": "OBUF",
@@ -23605,7 +23853,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 29 ],
+            "I": [ 31 ],
             "O": [ 10 ]
           }
         },
@@ -23622,7 +23870,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 29 ],
+            "I": [ 32 ],
             "O": [ 9 ]
           }
         },
@@ -23639,7 +23887,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 29 ],
+            "I": [ 33 ],
             "O": [ 8 ]
           }
         },
@@ -23656,7 +23904,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 29 ],
+            "I": [ 34 ],
             "O": [ 7 ]
           }
         },
@@ -23673,7 +23921,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 29 ],
+            "I": [ 35 ],
             "O": [ 6 ]
           }
         },
@@ -23690,22 +23938,74 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 29 ],
+            "I": [ 36 ],
             "O": [ 5 ]
           }
         },
-        "u.byteReady_GND_G": {
+        "u.byteReady_DFFE_Q": {
           "hide_name": 0,
-          "type": "GND",
+          "type": "DFFE",
           "parameters": {
           },
           "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
-            "G": "output"
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
           },
           "connections": {
-            "G": [ 29 ]
+            "CE": [ 37 ],
+            "CLK": [ 38 ],
+            "D": [ 39 ],
+            "Q": [ 40 ]
+          }
+        },
+        "u.byteReady_DFFE_Q_CE_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11100010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 37 ],
+            "I0": [ 41 ],
+            "I1": [ 39 ],
+            "I2": [ 42 ]
+          }
+        },
+        "u.byteReady_DFFE_Q_D_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 39 ],
+            "I0": [ 43 ],
+            "I1": [ 44 ]
           }
         },
         "u.clk_IBUF_O": {
@@ -23722,7 +24022,2670 @@
           },
           "connections": {
             "I": [ 2 ],
-            "O": [ 30 ]
+            "O": [ 38 ]
+          }
+        },
+        "u.dataIn_DFFE_Q": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 46 ],
+            "Q": [ 47 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_1": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 47 ],
+            "Q": [ 48 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_2": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 48 ],
+            "Q": [ 49 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_3": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 49 ],
+            "Q": [ 50 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_4": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 50 ],
+            "Q": [ 51 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_5": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 51 ],
+            "Q": [ 52 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_6": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 52 ],
+            "Q": [ 53 ]
+          }
+        },
+        "u.dataIn_DFFE_Q_7": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 45 ],
+            "CLK": [ 38 ],
+            "D": [ 53 ],
+            "Q": [ 54 ]
+          }
+        },
+        "u.led_DFFE_Q": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:202.1-206.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 40 ],
+            "CLK": [ 38 ],
+            "D": [ 55 ],
+            "Q": [ 31 ]
+          }
+        },
+        "u.led_DFFE_Q_1": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:202.1-206.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 40 ],
+            "CLK": [ 38 ],
+            "D": [ 56 ],
+            "Q": [ 32 ]
+          }
+        },
+        "u.led_DFFE_Q_1_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 56 ],
+            "I0": [ 50 ]
+          }
+        },
+        "u.led_DFFE_Q_2": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:202.1-206.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 40 ],
+            "CLK": [ 38 ],
+            "D": [ 57 ],
+            "Q": [ 33 ]
+          }
+        },
+        "u.led_DFFE_Q_2_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 57 ],
+            "I0": [ 51 ]
+          }
+        },
+        "u.led_DFFE_Q_3": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:202.1-206.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 40 ],
+            "CLK": [ 38 ],
+            "D": [ 58 ],
+            "Q": [ 34 ]
+          }
+        },
+        "u.led_DFFE_Q_3_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 58 ],
+            "I0": [ 52 ]
+          }
+        },
+        "u.led_DFFE_Q_4": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:202.1-206.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 40 ],
+            "CLK": [ 38 ],
+            "D": [ 59 ],
+            "Q": [ 35 ]
+          }
+        },
+        "u.led_DFFE_Q_4_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 59 ],
+            "I0": [ 53 ]
+          }
+        },
+        "u.led_DFFE_Q_5": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:202.1-206.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 40 ],
+            "CLK": [ 38 ],
+            "D": [ 60 ],
+            "Q": [ 36 ]
+          }
+        },
+        "u.led_DFFE_Q_5_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 60 ],
+            "I0": [ 54 ]
+          }
+        },
+        "u.led_DFFE_Q_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 55 ],
+            "I0": [ 49 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q": {
+          "hide_name": 0,
+          "type": "DFFRE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output",
+            "RESET": "input"
+          },
+          "connections": {
+            "CE": [ 61 ],
+            "CLK": [ 38 ],
+            "D": [ 62 ],
+            "Q": [ 63 ],
+            "RESET": [ 41 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_1": {
+          "hide_name": 0,
+          "type": "DFFRE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output",
+            "RESET": "input"
+          },
+          "connections": {
+            "CE": [ 61 ],
+            "CLK": [ 38 ],
+            "D": [ 64 ],
+            "Q": [ 65 ],
+            "RESET": [ 41 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_1_D_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:234.28-234.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 66 ],
+            "COUT": [ 67 ],
+            "I0": [ 29 ],
+            "I1": [ 65 ],
+            "I3": [ 68 ],
+            "SUM": [ 64 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:234.28-234.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 29 ],
+            "COUT": [ 66 ],
+            "I0": [ 68 ],
+            "I1": [ 69 ],
+            "I3": [ 68 ],
+            "SUM": [ 70 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_2": {
+          "hide_name": 0,
+          "type": "DFFRE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output",
+            "RESET": "input"
+          },
+          "connections": {
+            "CE": [ 61 ],
+            "CLK": [ 38 ],
+            "D": [ 71 ],
+            "Q": [ 69 ],
+            "RESET": [ 41 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_2_D_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 71 ],
+            "I0": [ 69 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_CE_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 61 ],
+            "I0": [ 45 ],
+            "I1": [ 41 ]
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_D_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:234.28-234.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 67 ],
+            "COUT": [ 72 ],
+            "I0": [ 29 ],
+            "I1": [ 63 ],
+            "I3": [ 68 ],
+            "SUM": [ 62 ]
+          }
+        },
+        "u.rxBitNumber_LUT3_I0": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 73 ],
+            "I0": [ 63 ],
+            "I1": [ 65 ],
+            "I2": [ 69 ]
+          }
+        },
+        "u.rxBitNumber_LUT3_I0_F_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 45 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 77 ],
+            "Q": [ 78 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_1": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 79 ],
+            "Q": [ 80 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_10": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 81 ],
+            "Q": [ 82 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_10_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10001010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 81 ],
+            "I0": [ 83 ],
+            "I1": [ 39 ],
+            "I2": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 85 ],
+            "Q": [ 86 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 87 ],
+            "I1": [ 88 ],
+            "O": [ 85 ],
+            "S0": [ 42 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000011110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 87 ],
+            "I0": [ 43 ],
+            "I1": [ 44 ],
+            "I2": [ 89 ],
+            "I3": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 90 ],
+            "COUT": [ 91 ],
+            "I0": [ 29 ],
+            "I1": [ 86 ],
+            "I3": [ 68 ],
+            "SUM": [ 89 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_CIN_ALU_COUT": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 29 ],
+            "COUT": [ 90 ],
+            "I0": [ 68 ],
+            "I1": [ 92 ],
+            "I3": [ 68 ],
+            "SUM": [ 93 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 91 ],
+            "COUT": [ 94 ],
+            "I0": [ 29 ],
+            "I1": [ 82 ],
+            "I3": [ 68 ],
+            "SUM": [ 83 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 95 ],
+            "COUT": [ 96 ],
+            "I0": [ 29 ],
+            "I1": [ 97 ],
+            "I3": [ 68 ],
+            "SUM": [ 98 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_ALU_SUM_1": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 94 ],
+            "COUT": [ 95 ],
+            "I0": [ 29 ],
+            "I1": [ 99 ],
+            "I3": [ 68 ],
+            "SUM": [ 100 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 101 ],
+            "I0": [ 86 ],
+            "I1": [ 92 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT5_S0": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 30 ],
+            "I1": [ 102 ],
+            "O": [ 103 ],
+            "S0": [ 101 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT5_S0_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000100000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 102 ],
+            "I0": [ 104 ],
+            "I1": [ 97 ],
+            "I2": [ 99 ],
+            "I3": [ 82 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I1_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 88 ],
+            "I0": [ 89 ],
+            "I1": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 105 ],
+            "Q": [ 92 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01110011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 105 ],
+            "I0": [ 106 ],
+            "I1": [ 92 ],
+            "I2": [ 107 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_LUT4_I3": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000011111011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 84 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 106 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_LUT4_I3_F_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 44 ],
+            "I0": [ 74 ],
+            "I1": [ 75 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 108 ],
+            "I1": [ 109 ],
+            "O": [ 106 ],
+            "S0": [ 103 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_MUX2_LUT5_O_I0_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "10"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 108 ],
+            "I0": [ 110 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_MUX2_LUT5_O_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011000011110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 109 ],
+            "I0": [ 78 ],
+            "I1": [ 111 ],
+            "I2": [ 110 ],
+            "I3": [ 112 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_1_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 79 ],
+            "I0": [ 107 ],
+            "I1": [ 110 ],
+            "I2": [ 113 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_2": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 114 ],
+            "Q": [ 115 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_2_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 114 ],
+            "I0": [ 107 ],
+            "I1": [ 110 ],
+            "I2": [ 116 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_3": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 117 ],
+            "Q": [ 118 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_3_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 117 ],
+            "I0": [ 107 ],
+            "I1": [ 110 ],
+            "I2": [ 119 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_4": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 120 ],
+            "Q": [ 121 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_4_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 120 ],
+            "I0": [ 107 ],
+            "I1": [ 110 ],
+            "I2": [ 122 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_5": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 123 ],
+            "Q": [ 124 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_5_D_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 125 ],
+            "I1": [ 126 ],
+            "O": [ 123 ],
+            "S0": [ 42 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_5_D_MUX2_LUT5_O_I0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0011010000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 125 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 127 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_5_D_MUX2_LUT5_O_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0001010000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 126 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 127 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 128 ],
+            "Q": [ 129 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 130 ],
+            "I1": [ 131 ],
+            "O": [ 128 ],
+            "S0": [ 42 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000011110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 130 ],
+            "I0": [ 43 ],
+            "I1": [ 44 ],
+            "I2": [ 132 ],
+            "I3": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 133 ],
+            "COUT": [ 134 ],
+            "I0": [ 29 ],
+            "I1": [ 129 ],
+            "I3": [ 68 ],
+            "SUM": [ 132 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_CIN_ALU_COUT": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 96 ],
+            "COUT": [ 133 ],
+            "I0": [ 29 ],
+            "I1": [ 104 ],
+            "I3": [ 68 ],
+            "SUM": [ 135 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 134 ],
+            "COUT": [ 136 ],
+            "I0": [ 29 ],
+            "I1": [ 124 ],
+            "I3": [ 68 ],
+            "SUM": [ 127 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT7",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:166.14-166.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 137 ],
+            "I1": [ 138 ],
+            "O": [ 42 ],
+            "S0": [ 139 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT6",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:160.14-160.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 140 ],
+            "I1": [ 141 ],
+            "O": [ 137 ],
+            "S0": [ 142 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 143 ],
+            "I1": [ 144 ],
+            "O": [ 140 ],
+            "S0": [ 145 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 143 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 144 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 146 ],
+            "I1": [ 147 ],
+            "O": [ 141 ],
+            "S0": [ 145 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 146 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 147 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT6",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:160.14-160.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 148 ],
+            "I1": [ 149 ],
+            "O": [ 138 ],
+            "S0": [ 142 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 150 ],
+            "I1": [ 151 ],
+            "O": [ 148 ],
+            "S0": [ 145 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 150 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 151 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 152 ],
+            "I1": [ 153 ],
+            "O": [ 149 ],
+            "S0": [ 145 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 152 ],
+            "I0": [ 122 ],
+            "I1": [ 119 ],
+            "I2": [ 116 ],
+            "I3": [ 113 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 153 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 142 ],
+            "I0": [ 132 ],
+            "I1": [ 127 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 154 ],
+            "COUT": [ 155 ],
+            "I0": [ 29 ],
+            "I1": [ 118 ],
+            "I3": [ 68 ],
+            "SUM": [ 119 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_1": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 136 ],
+            "COUT": [ 154 ],
+            "I0": [ 29 ],
+            "I1": [ 121 ],
+            "I3": [ 68 ],
+            "SUM": [ 122 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_2": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 156 ],
+            "COUT": [ 157 ],
+            "I0": [ 29 ],
+            "I1": [ 78 ],
+            "I3": [ 68 ],
+            "SUM": [ 145 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_3": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 158 ],
+            "COUT": [ 156 ],
+            "I0": [ 29 ],
+            "I1": [ 80 ],
+            "I3": [ 68 ],
+            "SUM": [ 113 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_4": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 155 ],
+            "COUT": [ 158 ],
+            "I0": [ 29 ],
+            "I1": [ 115 ],
+            "I3": [ 68 ],
+            "SUM": [ 116 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 159 ],
+            "I1": [ 160 ],
+            "O": [ 139 ],
+            "S0": [ 135 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_MUX2_LUT5_O_I0_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 159 ],
+            "I0": [ 29 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_MUX2_LUT5_O_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 160 ],
+            "I0": [ 101 ],
+            "I1": [ 83 ],
+            "I2": [ 100 ],
+            "I3": [ 98 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I1_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 131 ],
+            "I0": [ 132 ],
+            "I1": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_7": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 161 ],
+            "Q": [ 104 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_7_D_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 162 ],
+            "I1": [ 163 ],
+            "O": [ 161 ],
+            "S0": [ 42 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_7_D_MUX2_LUT5_O_I0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000011110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 162 ],
+            "I0": [ 43 ],
+            "I1": [ 44 ],
+            "I2": [ 135 ],
+            "I3": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_7_D_MUX2_LUT5_O_I1_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 163 ],
+            "I0": [ 135 ],
+            "I1": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_8": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 164 ],
+            "Q": [ 97 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_8_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10001010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 164 ],
+            "I0": [ 98 ],
+            "I1": [ 39 ],
+            "I2": [ 84 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_9": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 76 ],
+            "CLK": [ 38 ],
+            "D": [ 165 ],
+            "Q": [ 99 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_9_D_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 166 ],
+            "I1": [ 167 ],
+            "O": [ 165 ],
+            "S0": [ 42 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_9_D_MUX2_LUT5_O_I0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0011010000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:152.41-152.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 166 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 100 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_9_D_MUX2_LUT5_O_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0001010000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:153.41-153.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 167 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 100 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_D_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 77 ],
+            "I0": [ 107 ],
+            "I1": [ 110 ],
+            "I2": [ 145 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_D_LUT3_F_I1_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 111 ],
+            "I0": [ 80 ],
+            "I1": [ 115 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_D_LUT3_F_I1_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 110 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ]
+          }
+        },
+        "u.rxCounter_DFFE_Q_D_LUT3_F_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000100000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 112 ],
+            "I0": [ 118 ],
+            "I1": [ 121 ],
+            "I2": [ 124 ],
+            "I3": [ 129 ]
+          }
+        },
+        "u.rxState_DFFE_Q": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 168 ],
+            "CLK": [ 38 ],
+            "D": [ 169 ],
+            "Q": [ 43 ]
+          }
+        },
+        "u.rxState_DFFE_Q_1": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 168 ],
+            "CLK": [ 38 ],
+            "D": [ 170 ],
+            "Q": [ 74 ]
+          }
+        },
+        "u.rxState_DFFE_Q_1_D_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0001010001010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 170 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 73 ]
+          }
+        },
+        "u.rxState_DFFE_Q_2": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:208.1-249.4|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 168 ],
+            "CLK": [ 38 ],
+            "D": [ 171 ],
+            "Q": [ 75 ]
+          }
+        },
+        "u.rxState_DFFE_Q_2_D_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1100111110001111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 171 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 73 ]
+          }
+        },
+        "u.rxState_DFFE_Q_CE_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000110000001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 168 ],
+            "I0": [ 107 ],
+            "I1": [ 76 ],
+            "I2": [ 106 ],
+            "I3": [ 42 ]
+          }
+        },
+        "u.rxState_DFFE_Q_CE_LUT4_F_I0_LUT3_F": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11011011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:143.23-144.37"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input"
+          },
+          "connections": {
+            "F": [ 107 ],
+            "I0": [ 43 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ]
+          }
+        },
+        "u.rxState_DFFE_Q_D_LUT2_F": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "F": [ 169 ],
+            "I0": [ 73 ],
+            "I1": [ 45 ]
           }
         },
         "u.txPinRegister_VCC_V": {
@@ -23736,7 +26699,7 @@
             "V": "output"
           },
           "connections": {
-            "V": [ 31 ]
+            "V": [ 68 ]
           }
         },
         "u.uart_rx_IBUF_O": {
@@ -23753,7 +26716,57 @@
           },
           "connections": {
             "I": [ 3 ],
-            "O": [ 32 ]
+            "O": [ 46 ]
+          }
+        },
+        "u.uart_rx_LUT4_I0": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0011111100110001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 76 ],
+            "I0": [ 46 ],
+            "I1": [ 43 ],
+            "I2": [ 74 ],
+            "I3": [ 75 ]
+          }
+        },
+        "u.uart_rx_LUT4_I0_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 41 ],
+            "I0": [ 46 ],
+            "I1": [ 43 ],
+            "I2": [ 74 ],
+            "I3": [ 75 ]
           }
         },
         "uart_tx_OBUF_O": {
@@ -23769,7 +26782,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 31 ],
+            "I": [ 68 ],
             "O": [ 4 ]
           }
         }
@@ -23810,6 +26823,20 @@
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\top.v:10.16-10.19"
           }
         },
+        "dataOut": {
+          "hide_name": 0,
+          "bits": [ 29, 68, 29, 68, 29, 68, 29, 68 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\top.v:19.15-19.22"
+          }
+        },
+        "dataOut_LUT1_I0_F": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
         "led": {
           "hide_name": 0,
           "bits": [ 5, 6, 7, 8, 9, 10 ],
@@ -23826,59 +26853,669 @@
         },
         "u.byteReady": {
           "hide_name": 0,
-          "bits": [ 29 ],
+          "bits": [ 40 ],
           "attributes": {
             "hdlname": "u byteReady",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:25.5-25.14"
           }
         },
+        "u.byteReady_DFFE_Q_CE": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+          }
+        },
+        "u.byteReady_DFFE_Q_D": {
+          "hide_name": 0,
+          "bits": [ 41, 39, 42 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
         "u.clk": {
           "hide_name": 0,
-          "bits": [ 30 ],
+          "bits": [ 38 ],
           "attributes": {
             "hdlname": "u clk",
-            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:9.11-9.14",
-            "unused_bits": "0 "
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:9.11-9.14"
           }
         },
         "u.dataIn": {
           "hide_name": 0,
-          "bits": [ 29, 29, 29, 29, 29, 29, 29, 29 ],
+          "bits": [ 54, 53, 52, 51, 50, 49, 48, 47 ],
           "attributes": {
             "hdlname": "u dataIn",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:24.11-24.17"
           }
         },
+        "u.dataOut": {
+          "hide_name": 0,
+          "bits": [ 29, 68, 29, 68, 29, 68, 29, 68 ],
+          "attributes": {
+            "hdlname": "u dataOut",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:13.17-13.24"
+          }
+        },
         "u.led": {
           "hide_name": 0,
-          "bits": [ 29, 29, 29, 29, 29, 29 ],
+          "bits": [ 36, 35, 34, 33, 32, 31 ],
           "attributes": {
             "hdlname": "u led",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:12.22-12.25"
           }
         },
+        "u.led_DFFE_Q_1_D": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+          }
+        },
+        "u.led_DFFE_Q_2_D": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "attributes": {
+          }
+        },
+        "u.led_DFFE_Q_3_D": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+          }
+        },
+        "u.led_DFFE_Q_4_D": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "attributes": {
+          }
+        },
+        "u.led_DFFE_Q_5_D": {
+          "hide_name": 0,
+          "bits": [ 60 ],
+          "attributes": {
+          }
+        },
+        "u.led_DFFE_Q_D": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "attributes": {
+          }
+        },
         "u.rxBitNumber": {
           "hide_name": 0,
-          "bits": [ 29, 29, 29 ],
+          "bits": [ 69, 65, 63 ],
           "attributes": {
             "hdlname": "u rxBitNumber",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:23.11-23.22"
           }
         },
+        "u.rxBitNumber_DFFRE_Q_1_D": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_1_D_ALU_SUM_CIN": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:234.28-234.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_SUM": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "attributes": {
+            "unused_bits": "0 "
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_2_D": {
+          "hide_name": 0,
+          "bits": [ 71 ],
+          "attributes": {
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_CE": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "attributes": {
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_D": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "attributes": {
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_D_ALU_SUM_CIN": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:234.28-234.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxBitNumber_DFFRE_Q_D_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 72 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:234.28-234.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29",
+            "unused_bits": "0 "
+          }
+        },
+        "u.rxBitNumber_LUT3_I0_F": {
+          "hide_name": 0,
+          "bits": [ 73, 45 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
         "u.rxCounter": {
           "hide_name": 0,
-          "bits": [ 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29 ],
+          "bits": [ 92, 86, 82, 99, 97, 104, 129, 124, 121, 118, 115, 80, 78 ],
           "attributes": {
             "hdlname": "u rxCounter",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:22.12-22.21"
           }
         },
+        "u.rxCounter_DFFE_Q_10_D": {
+          "hide_name": 0,
+          "bits": [ 81 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D": {
+          "hide_name": 0,
+          "bits": [ 85 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 87 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2": {
+          "hide_name": 0,
+          "bits": [ 43, 44, 89, 84, 42 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_CIN": {
+          "hide_name": 0,
+          "bits": [ 90 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_CIN_ALU_COUT_SUM": {
+          "hide_name": 0,
+          "bits": [ 93 ],
+          "attributes": {
+            "unused_bits": "0 "
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 91 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_COUT": {
+          "hide_name": 0,
+          "bits": [ 94 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM": {
+          "hide_name": 0,
+          "bits": [ 101, 83, 100, 98, 135 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_ALU_SUM_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 95 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 96 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT5_S0_I1": {
+          "hide_name": 0,
+          "bits": [ 102 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_11_D_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 88 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D": {
+          "hide_name": 0,
+          "bits": [ 105 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0": {
+          "hide_name": 0,
+          "bits": [ 43, 74, 75, 106 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_LUT4_I3_F": {
+          "hide_name": 0,
+          "bits": [ 43, 44, 135, 84, 42 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 108 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_12_D_LUT3_F_I0_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 109 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_1_D": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_2_D": {
+          "hide_name": 0,
+          "bits": [ 114 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_3_D": {
+          "hide_name": 0,
+          "bits": [ 117 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_4_D": {
+          "hide_name": 0,
+          "bits": [ 120 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_5_D": {
+          "hide_name": 0,
+          "bits": [ 123 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_5_D_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 125 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_5_D_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 126 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D": {
+          "hide_name": 0,
+          "bits": [ 128 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 130 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2": {
+          "hide_name": 0,
+          "bits": [ 43, 44, 132, 84, 42 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_CIN": {
+          "hide_name": 0,
+          "bits": [ 133 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 134 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_COUT": {
+          "hide_name": 0,
+          "bits": [ 136 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM": {
+          "hide_name": 0,
+          "bits": [ 43, 74, 75, 127, 42 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0": {
+          "hide_name": 0,
+          "bits": [ 137 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:163.9-163.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0": {
+          "hide_name": 0,
+          "bits": [ 140 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:157.9-157.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 143 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 144 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1": {
+          "hide_name": 0,
+          "bits": [ 141 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:157.13-157.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 146 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 147 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:164.41-164.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1": {
+          "hide_name": 0,
+          "bits": [ 138 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:163.13-163.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0": {
+          "hide_name": 0,
+          "bits": [ 148 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:157.9-157.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 150 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 151 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:158.41-158.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1": {
+          "hide_name": 0,
+          "bits": [ 149 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:157.13-157.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 152 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 153 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:165.42-165.67|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:159.41-159.66|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F": {
+          "hide_name": 0,
+          "bits": [ 122, 119, 116, 113, 145, 142, 139 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 154 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 157 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29",
+            "unused_bits": "0 "
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 156 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_4_COUT": {
+          "hide_name": 0,
+          "bits": [ 158 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 155 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:223.30-223.43|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:57.7-63.5|c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 159 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I0_LUT4_F_I2_LUT2_I0_F_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 160 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_6_D_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 131 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_7_D": {
+          "hide_name": 0,
+          "bits": [ 161 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_7_D_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 162 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_7_D_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 163 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_8_D": {
+          "hide_name": 0,
+          "bits": [ 164 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_9_D": {
+          "hide_name": 0,
+          "bits": [ 165 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_9_D_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 166 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "u.rxCounter_DFFE_Q_9_D_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 167 ],
+          "attributes": {
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "u.rxCounter_DFFE_Q_D": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+          }
+        },
+        "u.rxCounter_DFFE_Q_D_LUT3_F_I1": {
+          "hide_name": 0,
+          "bits": [ 78, 111, 110, 112, 103 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
         "u.rxState": {
           "hide_name": 0,
-          "bits": [ 29, 29, 29, 29 ],
+          "bits": [ 75, 74, 43, 29 ],
           "attributes": {
             "hdlname": "u rxState",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:21.11-21.18"
+          }
+        },
+        "u.rxState_DFFE_Q_1_D": {
+          "hide_name": 0,
+          "bits": [ 170 ],
+          "attributes": {
+          }
+        },
+        "u.rxState_DFFE_Q_2_D": {
+          "hide_name": 0,
+          "bits": [ 171 ],
+          "attributes": {
+          }
+        },
+        "u.rxState_DFFE_Q_CE": {
+          "hide_name": 0,
+          "bits": [ 168 ],
+          "attributes": {
+          }
+        },
+        "u.rxState_DFFE_Q_CE_LUT4_F_I0": {
+          "hide_name": 0,
+          "bits": [ 107, 110, 119 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.rxState_DFFE_Q_D": {
+          "hide_name": 0,
+          "bits": [ 169 ],
+          "attributes": {
           }
         },
         "u.txByteCounter": {
@@ -23899,7 +27536,7 @@
         },
         "u.txPinRegister": {
           "hide_name": 0,
-          "bits": [ 31 ],
+          "bits": [ 68 ],
           "attributes": {
             "hdlname": "u txPinRegister",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:38.5-38.18"
@@ -23915,16 +27552,31 @@
         },
         "u.uart_rx": {
           "hide_name": 0,
-          "bits": [ 32 ],
+          "bits": [ 46 ],
           "attributes": {
             "hdlname": "u uart_rx",
-            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:10.11-10.18",
-            "unused_bits": "0 "
+            "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:10.11-10.18"
+          }
+        },
+        "u.uart_rx_LUT4_I0_1_F": {
+          "hide_name": 0,
+          "bits": [ 45, 41 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "u.uart_rx_LUT4_I0_F": {
+          "hide_name": 0,
+          "bits": [ 107, 76, 106, 42 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
           }
         },
         "u.uart_tx": {
           "hide_name": 0,
-          "bits": [ 31 ],
+          "bits": [ 68 ],
           "attributes": {
             "hdlname": "u uart_tx",
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\uart.v:11.12-11.19"

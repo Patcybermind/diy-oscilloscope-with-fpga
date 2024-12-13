@@ -3,7 +3,7 @@
 module uart
 #(
     parameter DELAY_FRAMES = 234, // 27,000,000 (27Mhz) / 115200 Baud rate
-    parameter ADC_DELAY_FRAMES = 3744 // DELAY_FRAMES * 16 
+    parameter ADC_DELAY_FRAMES = 50000 // DELAY_FRAMES * 16 
 )
 (
     input clk,
@@ -205,6 +205,48 @@ always @(posedge clk) begin
     end
 end
 
+always @(posedge clk) begin
+    case (rxState)
+        RX_STATE_IDLE: begin
+            if (uart_rx == 0) begin
+                rxState <= RX_STATE_START_BIT;
+                rxCounter <= 1;
+                rxBitNumber <= 0;
+                byteReady <= 0;
+            end
+        end 
+        RX_STATE_START_BIT: begin
+            if (rxCounter == HALF_DELAY_WAIT) begin
+                rxState <= RX_STATE_READ_WAIT;
+                rxCounter <= 1;
+            end else 
+                rxCounter <= rxCounter + 1;
+        end
+        RX_STATE_READ_WAIT: begin
+            rxCounter <= rxCounter + 1;
+            if ((rxCounter + 1) == DELAY_FRAMES) begin
+                rxState <= RX_STATE_READ;
+            end
+        end
+        RX_STATE_READ: begin
+            rxCounter <= 1;
+            dataIn <= {uart_rx, dataIn[7:1]};
+            rxBitNumber <= rxBitNumber + 1;
+            if (rxBitNumber == 3'b111)
+                rxState <= RX_STATE_STOP_BIT;
+            else
+                rxState <= RX_STATE_READ_WAIT;
+        end
+        RX_STATE_STOP_BIT: begin
+            rxCounter <= rxCounter + 1;
+            if ((rxCounter + 1) == DELAY_FRAMES) begin
+                rxState <= RX_STATE_IDLE;
+                rxCounter <= 0;
+                byteReady <= 1;
+            end
+        end
+    endcase
+end
 
 
 

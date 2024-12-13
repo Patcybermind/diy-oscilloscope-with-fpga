@@ -4,7 +4,7 @@
 module top
 #(
     parameter DELAY_FRAMES = 234, // 27,000,000 (27Mhz) / 115200 Baud rate
-    parameter ADC_DELAY_FRAMES = 50000 // 16 times DELAY_FRAMES
+    parameter ADC_DELAY_FRAMES = 3744 // 16 times DELAY_FRAMES is 16 * 234 = 3744
 )
 (
     input wire clk,
@@ -37,7 +37,7 @@ module top
         if (adcTransmitCounter == ADC_DELAY_FRAMES) begin
             adcTransmitCounter <= 0;
             readyToTransmit <= 1;
-            dataOut <= adcIn;
+            dataOut <= 'b10101010;
         end else if (adcTransmitCounter == 1) begin
             readyToTransmit <= 0;
             adcTransmitCounter <= adcTransmitCounter + 1;
