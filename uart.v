@@ -146,7 +146,6 @@ always @(posedge clk) begin
             txPinRegister <= 0;
             if ((txCounter + 1) == DELAY_FRAMES) begin
                 txState <= TX_STATE_WRITE;
-                dataOut <= 'b10101010;
                 txBitNumber <= 0;
                 txCounter <= 0;
             end else 

@@ -3,7 +3,7 @@
 
 module top
 #(
-    parameter DELAY_FRAMES = 234, // 27,000,000 (27Mhz) / 115200 Baud rate
+    parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
      // 16 times DELAY_FRAMES is 16 * 234 = 3744
 )
 (
