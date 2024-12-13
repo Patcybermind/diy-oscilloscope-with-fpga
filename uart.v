@@ -12,7 +12,7 @@ module uart
     output reg [5:0] led,
     input [7:0] dataOut, // was reg
     //input [24:0] txCounter,
-    input readyToTransmit
+    input sendOnLow
 );
 
     localparam HALF_DELAY_WAIT = (DELAY_FRAMES / 2);
@@ -128,29 +128,25 @@ end
 */
 
 // ADC TX
-always @(posedge clk) begin
-    if (readyToTransmit) begin
-        txState <= TX_STATE_START_BIT;
-        txCounter <= 0;
-    end
-end
+
+
 always @(posedge clk) begin
     case (txState)
         TX_STATE_IDLE: begin
-            //if (btn1 == 0) begin
-            //    txState <= TX_STATE_START_BIT;
-            //    txCounter <= 0;
-            //    //txByteCounter <= 0;
-            //end
-            //else begin
+            if (sendOnLow == 0) begin
+                txState <= TX_STATE_START_BIT;
+                txCounter <= 0;
+                txByteCounter <= 0;
+            end
+            else begin
                 txPinRegister <= 1;
-            //end
+            end
         end 
         TX_STATE_START_BIT: begin
             txPinRegister <= 0;
             if ((txCounter + 1) == DELAY_FRAMES) begin
                 txState <= TX_STATE_WRITE;
-                //dataOut <= 'h00; // should be set from the outside
+                dataOut <= 'b10101010;
                 txBitNumber <= 0;
                 txCounter <= 0;
             end else 
@@ -172,31 +168,22 @@ always @(posedge clk) begin
         TX_STATE_STOP_BIT: begin
             txPinRegister <= 1;
             if ((txCounter + 1) == DELAY_FRAMES) begin
-                //if (txByteCounter == MEMORY_LENGTH - 1) begin
-                    //txState <= TX_STATE_DEBOUNCE;
-                //end else begin
-                    //txByteCounter <= txByteCounter + 1;
-                    //txState <= TX_STATE_START_BIT;
-                //end
-                txState <= TX_STATE_IDLE;
+
+                    txState <= TX_STATE_DEBOUNCE;
                 txCounter <= 0;
             end else 
                 txCounter <= txCounter + 1;
         end
-
-        // should not be doing anything
-        /*
         TX_STATE_DEBOUNCE: begin
             if (txCounter == 23'b111111111111111111) begin
-                //if (btn1 == 1) 
+                if (sendOnLow == 1) 
                     txState <= TX_STATE_IDLE;
             end else
                 txCounter <= txCounter + 1;
-        
-        */
-        
+        end
     endcase
 end
+
 
 // rx
 always @(posedge clk) begin
