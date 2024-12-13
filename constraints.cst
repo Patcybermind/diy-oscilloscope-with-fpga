@@ -1,3 +1,19 @@
+IO_LOC  "adcIn[7]" 56;
+
+IO_LOC  "adcIn[6]" 54;
+
+IO_LOC  "adcIn[5]" 51;
+
+IO_LOC  "adcIn[4]" 48;
+
+IO_LOC  "adcIn[3]" 55;
+
+IO_LOC  "adcIn[2]" 49;
+
+IO_LOC  "adcIn[1]" 86;
+
+IO_LOC  "adcIn[0]" 79;
+
 IO_LOC  "clk" 4;
 IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 

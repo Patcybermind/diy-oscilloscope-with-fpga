@@ -9,8 +9,8 @@ module test();
       clk,
       uart_rx,
       uart_tx,
-      led,
-      btn
+      led//,
+      //btn
     );
 
     always
@@ -29,7 +29,7 @@ module test();
       #16 uart_rx=1;
       #16 uart_rx=0;
       #16 uart_rx=1;
-      #1000 $finish;
+      #30000 $finish;
     end
     initial begin
         $dumpfile("uart.vcd");
