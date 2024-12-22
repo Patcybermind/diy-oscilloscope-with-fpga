@@ -6,17 +6,8 @@ const tangnano = new SerialPort({
     baudRate: 115200,
 });
 
-let counter = 0;
-
-tangnano.on('data', function (data) {
-    console.log('Data In Text:', data.toString());
-    console.log('Data In Hex:', data.toString('hex'));
-
-    const binary = data.toString().split('').map((byte) => {
-        return byte.charCodeAt(0).toString(2).padStart(8, '0');
-    });
-    console.log('Data In Binary: ', binary.join(' '));
-    console.log("\n");
-    counter += 1;
-    tangnano.write(Buffer.from([counter]));
+// Add an event listener for the 'data' event
+tangnano.on('data', (data) => {
+    const hexData = data.toString('hex');
+    console.log('Data received:', hexData);
 });

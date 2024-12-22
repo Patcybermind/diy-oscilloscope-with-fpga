@@ -13,8 +13,10 @@ module top
     output uart_tx,
     output wire [5:0] led,
     input btn1,
-    input [7:0] adcIn // msb is adcIn[7] and lsb is adcIn[0]
+    input [7:0] adcIn, // msb is adcIn[7] and lsb is adcIn[0]
+    output wire adcClk
 );
+    assign adcClk = clk;
     localparam UART_INTERVAL_SEND = 27000000/10; // 1 second
     // tx
     reg [7:0] dataOut = 'h11;
