@@ -21,7 +21,7 @@
         }
       },
       "cells": {
-        "$specify$3044": {
+        "$specify$3036": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -254,7 +254,7 @@
         }
       },
       "cells": {
-        "$specify$3044": {
+        "$specify$3036": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -324,7 +324,7 @@
         }
       },
       "cells": {
-        "$specify$3044": {
+        "$specify$3036": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -24131,7 +24131,7 @@
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0111111111111111"
+            "INIT": "1011111111111111"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -24152,7 +24152,7 @@
             "I3": [ 52 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -24170,39 +24170,14 @@
             "I3": "input"
           },
           "connections": {
-            "F": [ 49 ],
+            "F": [ 51 ],
             "I0": [ 53 ],
             "I1": [ 54 ],
             "I2": [ 55 ],
             "I3": [ 56 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_1": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000000010000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 50 ],
-            "I0": [ 57 ],
-            "I1": [ 58 ],
-            "I2": [ 59 ],
-            "I3": [ 60 ]
-          }
-        },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_2": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -24221,63 +24196,13 @@
           },
           "connections": {
             "F": [ 52 ],
-            "I0": [ 61 ],
-            "I1": [ 62 ],
-            "I2": [ 63 ],
-            "I3": [ 64 ]
+            "I0": [ 57 ],
+            "I1": [ 58 ],
+            "I2": [ 59 ],
+            "I3": [ 60 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_2_I0_LUT4_F": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000000010000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 61 ],
-            "I0": [ 65 ],
-            "I1": [ 66 ],
-            "I2": [ 67 ],
-            "I3": [ 68 ]
-          }
-        },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_2_I0_LUT4_F_1": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0001000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 62 ],
-            "I0": [ 69 ],
-            "I1": [ 70 ],
-            "I2": [ 71 ],
-            "I3": [ 72 ]
-          }
-        },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_2_I0_LUT4_F_2": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_1_I0_LUT4_F": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -24295,18 +24220,18 @@
             "I3": "input"
           },
           "connections": {
-            "F": [ 63 ],
-            "I0": [ 73 ],
-            "I1": [ 74 ],
-            "I2": [ 75 ],
-            "I3": [ 76 ]
+            "F": [ 57 ],
+            "I0": [ 61 ],
+            "I1": [ 62 ],
+            "I2": [ 63 ],
+            "I3": [ 64 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_2_I0_LUT4_F_3": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_1_I0_LUT4_F_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0000000010000000"
+            "INIT": "0000000000000001"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -24320,18 +24245,93 @@
             "I3": "input"
           },
           "connections": {
-            "F": [ 64 ],
+            "F": [ 58 ],
+            "I0": [ 65 ],
+            "I1": [ 66 ],
+            "I2": [ 67 ],
+            "I3": [ 68 ]
+          }
+        },
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_1_I0_LUT4_F_2": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 59 ],
+            "I0": [ 69 ],
+            "I1": [ 70 ],
+            "I2": [ 71 ],
+            "I3": [ 72 ]
+          }
+        },
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_1_I0_LUT4_F_3": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 60 ],
+            "I0": [ 73 ],
+            "I1": [ 74 ],
+            "I2": [ 75 ],
+            "I3": [ 76 ]
+          }
+        },
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_I3_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000100000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 56 ],
             "I0": [ 77 ],
             "I1": [ 78 ],
             "I2": [ 79 ],
             "I3": [ 80 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_I0": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_I1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "1000000000000000"
+            "INIT": "0100000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -24352,7 +24352,7 @@
             "I3": [ 52 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O": {
           "hide_name": 0,
           "type": "MUX2_LUT5",
           "parameters": {
@@ -24370,11 +24370,11 @@
           "connections": {
             "I0": [ 81 ],
             "I1": [ 82 ],
-            "O": [ 51 ],
+            "O": [ 50 ],
             "S0": [ 83 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O_I0_LUT1_F": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O_I0_LUT1_F": {
           "hide_name": 0,
           "type": "LUT1",
           "parameters": {
@@ -24393,11 +24393,11 @@
             "I0": [ 38 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O_I1_LUT4_F": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O_I1_LUT4_F": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0000000000000001"
+            "INIT": "0000010000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -24418,11 +24418,11 @@
             "I3": [ 87 ]
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O_S0_LUT4_F": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O_S0_LUT4_F": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0000000000000001"
+            "INIT": "0000000100000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -24796,7 +24796,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 136 ],
-            "Q": [ 84 ],
+            "Q": [ 69 ],
             "RESET": [ 23 ]
           }
         },
@@ -24818,7 +24818,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 137 ],
-            "Q": [ 85 ],
+            "Q": [ 70 ],
             "RESET": [ 23 ]
           }
         },
@@ -24840,7 +24840,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 138 ],
-            "Q": [ 59 ],
+            "Q": [ 75 ],
             "RESET": [ 23 ]
           }
         },
@@ -24866,7 +24866,7 @@
             "CIN": [ 139 ],
             "COUT": [ 140 ],
             "I0": [ 38 ],
-            "I1": [ 59 ],
+            "I1": [ 75 ],
             "I3": [ 141 ],
             "SUM": [ 138 ]
           }
@@ -24889,7 +24889,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 142 ],
-            "Q": [ 60 ],
+            "Q": [ 76 ],
             "RESET": [ 23 ]
           }
         },
@@ -24915,7 +24915,7 @@
             "CIN": [ 143 ],
             "COUT": [ 139 ],
             "I0": [ 38 ],
-            "I1": [ 60 ],
+            "I1": [ 76 ],
             "I3": [ 141 ],
             "SUM": [ 142 ]
           }
@@ -24938,7 +24938,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 144 ],
-            "Q": [ 53 ],
+            "Q": [ 65 ],
             "RESET": [ 23 ]
           }
         },
@@ -24964,7 +24964,7 @@
             "CIN": [ 145 ],
             "COUT": [ 143 ],
             "I0": [ 38 ],
-            "I1": [ 53 ],
+            "I1": [ 65 ],
             "I3": [ 141 ],
             "SUM": [ 144 ]
           }
@@ -24987,7 +24987,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 146 ],
-            "Q": [ 54 ],
+            "Q": [ 66 ],
             "RESET": [ 23 ]
           }
         },
@@ -25013,7 +25013,7 @@
             "CIN": [ 147 ],
             "COUT": [ 145 ],
             "I0": [ 38 ],
-            "I1": [ 54 ],
+            "I1": [ 66 ],
             "I3": [ 141 ],
             "SUM": [ 146 ]
           }
@@ -25036,7 +25036,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 148 ],
-            "Q": [ 55 ],
+            "Q": [ 67 ],
             "RESET": [ 23 ]
           }
         },
@@ -25062,7 +25062,7 @@
             "CIN": [ 149 ],
             "COUT": [ 147 ],
             "I0": [ 38 ],
-            "I1": [ 55 ],
+            "I1": [ 67 ],
             "I3": [ 141 ],
             "SUM": [ 148 ]
           }
@@ -25085,7 +25085,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 150 ],
-            "Q": [ 56 ],
+            "Q": [ 68 ],
             "RESET": [ 23 ]
           }
         },
@@ -25111,7 +25111,7 @@
             "CIN": [ 151 ],
             "COUT": [ 149 ],
             "I0": [ 38 ],
-            "I1": [ 56 ],
+            "I1": [ 68 ],
             "I3": [ 141 ],
             "SUM": [ 150 ]
           }
@@ -25134,7 +25134,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 152 ],
-            "Q": [ 69 ],
+            "Q": [ 88 ],
             "RESET": [ 23 ]
           }
         },
@@ -25160,7 +25160,7 @@
             "CIN": [ 153 ],
             "COUT": [ 151 ],
             "I0": [ 38 ],
-            "I1": [ 69 ],
+            "I1": [ 88 ],
             "I3": [ 141 ],
             "SUM": [ 152 ]
           }
@@ -25183,7 +25183,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 154 ],
-            "Q": [ 70 ],
+            "Q": [ 89 ],
             "RESET": [ 23 ]
           }
         },
@@ -25209,7 +25209,7 @@
             "CIN": [ 155 ],
             "COUT": [ 153 ],
             "I0": [ 38 ],
-            "I1": [ 70 ],
+            "I1": [ 89 ],
             "I3": [ 141 ],
             "SUM": [ 154 ]
           }
@@ -25232,7 +25232,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 156 ],
-            "Q": [ 71 ],
+            "Q": [ 90 ],
             "RESET": [ 23 ]
           }
         },
@@ -25258,7 +25258,7 @@
             "CIN": [ 157 ],
             "COUT": [ 155 ],
             "I0": [ 38 ],
-            "I1": [ 71 ],
+            "I1": [ 90 ],
             "I3": [ 141 ],
             "SUM": [ 156 ]
           }
@@ -25281,7 +25281,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 158 ],
-            "Q": [ 72 ],
+            "Q": [ 91 ],
             "RESET": [ 23 ]
           }
         },
@@ -25307,7 +25307,7 @@
             "CIN": [ 159 ],
             "COUT": [ 157 ],
             "I0": [ 38 ],
-            "I1": [ 72 ],
+            "I1": [ 91 ],
             "I3": [ 141 ],
             "SUM": [ 158 ]
           }
@@ -25334,7 +25334,7 @@
             "CIN": [ 160 ],
             "COUT": [ 161 ],
             "I0": [ 38 ],
-            "I1": [ 85 ],
+            "I1": [ 70 ],
             "I3": [ 141 ],
             "SUM": [ 137 ]
           }
@@ -25357,7 +25357,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 162 ],
-            "Q": [ 86 ],
+            "Q": [ 71 ],
             "RESET": [ 23 ]
           }
         },
@@ -25379,7 +25379,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 163 ],
-            "Q": [ 65 ],
+            "Q": [ 84 ],
             "RESET": [ 23 ]
           }
         },
@@ -25405,7 +25405,7 @@
             "CIN": [ 164 ],
             "COUT": [ 159 ],
             "I0": [ 38 ],
-            "I1": [ 65 ],
+            "I1": [ 84 ],
             "I3": [ 141 ],
             "SUM": [ 163 ]
           }
@@ -25428,7 +25428,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 165 ],
-            "Q": [ 66 ],
+            "Q": [ 85 ],
             "RESET": [ 23 ]
           }
         },
@@ -25454,7 +25454,7 @@
             "CIN": [ 166 ],
             "COUT": [ 164 ],
             "I0": [ 38 ],
-            "I1": [ 66 ],
+            "I1": [ 85 ],
             "I3": [ 141 ],
             "SUM": [ 165 ]
           }
@@ -25477,7 +25477,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 167 ],
-            "Q": [ 67 ],
+            "Q": [ 86 ],
             "RESET": [ 23 ]
           }
         },
@@ -25503,7 +25503,7 @@
             "CIN": [ 168 ],
             "COUT": [ 166 ],
             "I0": [ 38 ],
-            "I1": [ 67 ],
+            "I1": [ 86 ],
             "I3": [ 141 ],
             "SUM": [ 167 ]
           }
@@ -25526,7 +25526,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 169 ],
-            "Q": [ 68 ],
+            "Q": [ 87 ],
             "RESET": [ 23 ]
           }
         },
@@ -25552,7 +25552,7 @@
             "CIN": [ 170 ],
             "COUT": [ 168 ],
             "I0": [ 38 ],
-            "I1": [ 68 ],
+            "I1": [ 87 ],
             "I3": [ 141 ],
             "SUM": [ 169 ]
           }
@@ -25771,7 +25771,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 179 ],
-            "Q": [ 73 ],
+            "Q": [ 53 ],
             "RESET": [ 23 ]
           }
         },
@@ -25797,7 +25797,7 @@
             "CIN": [ 180 ],
             "COUT": [ 178 ],
             "I0": [ 38 ],
-            "I1": [ 73 ],
+            "I1": [ 53 ],
             "I3": [ 141 ],
             "SUM": [ 179 ]
           }
@@ -25820,7 +25820,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 181 ],
-            "Q": [ 74 ],
+            "Q": [ 54 ],
             "RESET": [ 23 ]
           }
         },
@@ -25846,7 +25846,7 @@
             "CIN": [ 182 ],
             "COUT": [ 180 ],
             "I0": [ 38 ],
-            "I1": [ 74 ],
+            "I1": [ 54 ],
             "I3": [ 141 ],
             "SUM": [ 181 ]
           }
@@ -25873,7 +25873,7 @@
             "CIN": [ 183 ],
             "COUT": [ 160 ],
             "I0": [ 38 ],
-            "I1": [ 86 ],
+            "I1": [ 71 ],
             "I3": [ 141 ],
             "SUM": [ 162 ]
           }
@@ -25896,7 +25896,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 184 ],
-            "Q": [ 87 ],
+            "Q": [ 72 ],
             "RESET": [ 23 ]
           }
         },
@@ -25918,7 +25918,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 185 ],
-            "Q": [ 75 ],
+            "Q": [ 55 ],
             "RESET": [ 23 ]
           }
         },
@@ -25944,7 +25944,7 @@
             "CIN": [ 186 ],
             "COUT": [ 182 ],
             "I0": [ 38 ],
-            "I1": [ 75 ],
+            "I1": [ 55 ],
             "I3": [ 141 ],
             "SUM": [ 185 ]
           }
@@ -25971,7 +25971,7 @@
             "CIN": [ 38 ],
             "COUT": [ 186 ],
             "I0": [ 141 ],
-            "I1": [ 76 ],
+            "I1": [ 49 ],
             "I3": [ 141 ],
             "SUM": [ 187 ]
           }
@@ -25994,7 +25994,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 188 ],
-            "Q": [ 76 ],
+            "Q": [ 49 ],
             "RESET": [ 23 ]
           }
         },
@@ -26014,7 +26014,7 @@
           },
           "connections": {
             "F": [ 188 ],
-            "I0": [ 76 ]
+            "I0": [ 49 ]
           }
         },
         "txIntervalCounter_DFFR_Q_3_D_ALU_SUM": {
@@ -26039,7 +26039,7 @@
             "CIN": [ 189 ],
             "COUT": [ 183 ],
             "I0": [ 38 ],
-            "I1": [ 87 ],
+            "I1": [ 72 ],
             "I3": [ 141 ],
             "SUM": [ 184 ]
           }
@@ -26062,7 +26062,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 190 ],
-            "Q": [ 88 ],
+            "Q": [ 61 ],
             "RESET": [ 23 ]
           }
         },
@@ -26088,7 +26088,7 @@
             "CIN": [ 191 ],
             "COUT": [ 189 ],
             "I0": [ 38 ],
-            "I1": [ 88 ],
+            "I1": [ 61 ],
             "I3": [ 141 ],
             "SUM": [ 190 ]
           }
@@ -26111,7 +26111,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 192 ],
-            "Q": [ 89 ],
+            "Q": [ 62 ],
             "RESET": [ 23 ]
           }
         },
@@ -26137,7 +26137,7 @@
             "CIN": [ 193 ],
             "COUT": [ 191 ],
             "I0": [ 38 ],
-            "I1": [ 89 ],
+            "I1": [ 62 ],
             "I3": [ 141 ],
             "SUM": [ 192 ]
           }
@@ -26160,7 +26160,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 194 ],
-            "Q": [ 90 ],
+            "Q": [ 63 ],
             "RESET": [ 23 ]
           }
         },
@@ -26186,7 +26186,7 @@
             "CIN": [ 195 ],
             "COUT": [ 193 ],
             "I0": [ 38 ],
-            "I1": [ 90 ],
+            "I1": [ 63 ],
             "I3": [ 141 ],
             "SUM": [ 194 ]
           }
@@ -26209,7 +26209,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 196 ],
-            "Q": [ 91 ],
+            "Q": [ 64 ],
             "RESET": [ 23 ]
           }
         },
@@ -26235,7 +26235,7 @@
             "CIN": [ 197 ],
             "COUT": [ 195 ],
             "I0": [ 38 ],
-            "I1": [ 91 ],
+            "I1": [ 64 ],
             "I3": [ 141 ],
             "SUM": [ 196 ]
           }
@@ -26258,7 +26258,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 198 ],
-            "Q": [ 57 ],
+            "Q": [ 73 ],
             "RESET": [ 23 ]
           }
         },
@@ -26284,7 +26284,7 @@
             "CIN": [ 199 ],
             "COUT": [ 197 ],
             "I0": [ 38 ],
-            "I1": [ 57 ],
+            "I1": [ 73 ],
             "I3": [ 141 ],
             "SUM": [ 198 ]
           }
@@ -26307,7 +26307,7 @@
           "connections": {
             "CLK": [ 21 ],
             "D": [ 200 ],
-            "Q": [ 58 ],
+            "Q": [ 74 ],
             "RESET": [ 23 ]
           }
         },
@@ -26333,7 +26333,7 @@
             "CIN": [ 140 ],
             "COUT": [ 199 ],
             "I0": [ 38 ],
-            "I1": [ 58 ],
+            "I1": [ 74 ],
             "I3": [ 141 ],
             "SUM": [ 200 ]
           }
@@ -26360,7 +26360,7 @@
             "CIN": [ 161 ],
             "COUT": [ 201 ],
             "I0": [ 38 ],
-            "I1": [ 84 ],
+            "I1": [ 69 ],
             "I3": [ 141 ],
             "SUM": [ 136 ]
           }
@@ -33166,7 +33166,7 @@
           "attributes": {
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1": {
           "hide_name": 0,
           "bits": [ 49, 50, 51, 52 ],
           "attributes": {
@@ -33174,35 +33174,43 @@
             "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_F_2_I0": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_1_I0": {
           "hide_name": 0,
-          "bits": [ 61, 62, 63, 64 ],
+          "bits": [ 57, 58, 59, 60 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_LUT4_I0_F": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_F_I3": {
+          "hide_name": 0,
+          "bits": [ 53, 54, 55, 56 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:130.20-130.21"
+          }
+        },
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_LUT4_I1_F": {
           "hide_name": 0,
           "bits": [ 23 ],
           "attributes": {
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O_I0": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O_I0": {
           "hide_name": 0,
           "bits": [ 81 ],
           "attributes": {
             "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.9-151.11"
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O_I1": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O_I1": {
           "hide_name": 0,
           "bits": [ 82 ],
           "attributes": {
             "src": "c:\\Users\\patog\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:151.13-151.15"
           }
         },
-        "sendOnLow_DFFS_Q_D_LUT4_F_I0_MUX2_LUT5_O_S0": {
+        "sendOnLow_DFFS_Q_D_LUT4_F_I1_MUX2_LUT5_O_S0": {
           "hide_name": 0,
           "bits": [ 84, 85, 86, 87, 83 ],
           "attributes": {
@@ -33280,7 +33288,7 @@
         },
         "txIntervalCounter": {
           "hide_name": 0,
-          "bits": [ 76, 75, 74, 73, 80, 79, 78, 77, 68, 67, 66, 65, 72, 71, 70, 69, 56, 55, 54, 53, 60, 59, 58, 57, 91, 90, 89, 88, 87, 86, 85, 84 ],
+          "bits": [ 49, 55, 54, 53, 80, 79, 78, 77, 87, 86, 85, 84, 91, 90, 89, 88, 68, 67, 66, 65, 76, 75, 74, 73, 64, 63, 62, 61, 72, 71, 70, 69 ],
           "attributes": {
             "src": "c:\\Users\\patog\\OneDrive\\Documents\\fpga\\vscode\\diy-oscilloscope\\top.v:38.16-38.33"
           }
