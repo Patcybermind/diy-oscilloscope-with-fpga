@@ -21,6 +21,7 @@ connectButton.addEventListener('click', async () => {
 
         while (port.readable) {
             const { value, done } = await reader.read();
+            console.log('Data received:', value);   
             if (done) {
                 reader.releaseLock();
                 break;
