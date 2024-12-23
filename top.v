@@ -17,7 +17,7 @@ module top
     output wire adcClk
 );
     assign adcClk = clk;
-    localparam UART_INTERVAL_SEND = 27000000/10; // 1 second
+    localparam UART_INTERVAL_SEND = 27000000/1000; // 1 second
     // tx
     reg [7:0] dataOut = 'h11;
     reg [3:0] txState = 0;

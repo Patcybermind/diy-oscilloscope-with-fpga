@@ -16,6 +16,7 @@ const DataFetcher = () => {
             break;
           }
           const data = value;
+          console.log(value);
           
           window.dispatchEvent(new CustomEvent('serialData', { detail: data }));
           
