@@ -1,53 +1,34 @@
-class DataFetcher {
-    constructor() {
-      this.port = null;
-      this.reader = null;
-      this.buffer = [];
-      this.eventTarget = new EventTarget();
-    }
-  
-    async connect() {
+import React, { useEffect } from 'react';
+
+const DataFetcher = () => {
+  useEffect(() => {
+    const connectSerial = async () => {
       try {
-        this.port = await navigator.serial.requestPort();
-        await this.port.open({ baudRate: 9600 });
-        this.reader = this.port.readable.getReader();
-        this.readLoop();
+        const port = await navigator.serial.requestPort();
+        await port.open({ baudRate: 115384 }); // 115200 115384 but this is way closer to the actual baud rate 27 000 000 / 234 = 115384.615..
+
+        const reader = port.readable.getReader();
+        while (true) {
+          
+          const { value, done } = await reader.read();
+          if (done) {
+            console.log("Done");
+            break;
+          }
+          const data = value;
+          
+          window.dispatchEvent(new CustomEvent('serialData', { detail: data }));
+          
+        }
       } catch (error) {
-        console.error('Failed to connect to the serial port:', error);
+        console.error('Error connecting to serial port:', error);
       }
-    }
-  
-    async readLoop() {
-      while (true) {
-        const { value, done } = await this.reader.read();
-        if (done) {
-          console.log('Stream closed');
-          this.reader.releaseLock();
-          break;
-        }
-        this.handleData(value);
-      }
-    }
-  
-    handleData(data) {
-      const value = new Uint8Array(data);
-      for (let i = 0; i < value.length; i++) {
-        this.buffer.push(value[i]);
-        if (this.buffer.length === 10) {
-          const event = new CustomEvent('data', { detail: this.buffer });
-          this.eventTarget.dispatchEvent(event);
-          this.buffer = [];
-        }
-      }
-    }
-  
-    addEventListener(type, listener) {
-      this.eventTarget.addEventListener(type, listener);
-    }
-  
-    removeEventListener(type, listener) {
-      this.eventTarget.removeEventListener(type, listener);
-    }
-  }
-  
-  export default DataFetcher;
+    };
+
+    connectSerial();
+  }, []);
+
+  return null;
+};
+
+export default DataFetcher;

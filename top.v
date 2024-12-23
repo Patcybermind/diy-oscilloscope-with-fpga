@@ -3,7 +3,7 @@
 
 module top
 #(
-    parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
+    parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate = 234 which gives 115384.615..
      // 16 times DELAY_FRAMES is 16 * 234 = 3744
 )
 (
@@ -17,7 +17,7 @@ module top
     output wire adcClk
 );
     assign adcClk = clk;
-    localparam UART_INTERVAL_SEND = 27000000/100; // 1 second
+    localparam UART_INTERVAL_SEND = 27000000/10; // 1 second
     // tx
     reg [7:0] dataOut = 'h11;
     reg [3:0] txState = 0;
