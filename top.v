@@ -13,11 +13,11 @@ module top
     output uart_tx,
     output wire [5:0] led,
     input btn1,
-    input [7:0] adcIn, // msb is adcIn[7] and lsb is adcIn[0]
+    input [7:0] adcIn, // msb is adcIn[7] and lsb is adcIn[0] // TEST PROGRAM
     output wire adcClk
 );
     assign adcClk = clk;
-    localparam UART_INTERVAL_SEND = 27000000/50; // 1 second
+    localparam UART_INTERVAL_SEND = 27000000/1000; // 1 second
     // tx
     reg [7:0] dataOut = 'h11;
     reg [3:0] txState = 0;
@@ -37,11 +37,16 @@ module top
 
     reg [31:0] txIntervalCounter = 0;
 
+
+    // TEST
+    reg [7:0] testNumber = 0;
+
     always @(posedge clk) begin
     if (txIntervalCounter == UART_INTERVAL_SEND) begin
         txIntervalCounter <= 0;
         sendOnLow <= 0;
-        dataOut <= adcIn;
+        dataOut <= testNumber;
+        testNumber <= testNumber + 1;
     end else begin
         txIntervalCounter <= txIntervalCounter + 1;
         sendOnLow <= 1;
