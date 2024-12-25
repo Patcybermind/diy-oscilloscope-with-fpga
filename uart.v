@@ -6,13 +6,13 @@ module uart
     parameter ADC_DELAY_FRAMES = 50000 // DELAY_FRAMES * 16 
 )
 (
-    input clk,
-    input uart_rx,
-    output uart_tx,
+    input wire clk,
+    input wire uart_rx,
+    output wire uart_tx,
     output reg [5:0] led,
-    input [7:0] dataOut, // was reg
+    input wire [7:0] dataOut, // was reg
     //input [24:0] txCounter,
-    input sendOnLow
+    input wire sendOnLow
 );
 
     localparam HALF_DELAY_WAIT = (DELAY_FRAMES / 2);
@@ -149,7 +149,7 @@ always @(posedge clk) begin
                 txBitNumber <= 0;
                 txCounter <= 0;
             end else 
-                txCounter <= txCounter + 1;
+                txCounter <= txCounter + 1'b1;
         end
         TX_STATE_WRITE: begin
             txPinRegister <= dataOut[txBitNumber];
@@ -158,11 +158,11 @@ always @(posedge clk) begin
                     txState <= TX_STATE_STOP_BIT;
                 end else begin
                     txState <= TX_STATE_WRITE;
-                    txBitNumber <= txBitNumber + 1;
+                    txBitNumber <= txBitNumber + 1'b1;
                 end
                 txCounter <= 0;
             end else 
-                txCounter <= txCounter + 1;
+                txCounter <= txCounter + 1'b1;
         end
         TX_STATE_STOP_BIT: begin
             txPinRegister <= 1;
@@ -171,14 +171,14 @@ always @(posedge clk) begin
                     txState <= TX_STATE_DEBOUNCE;
                 txCounter <= 0;
             end else 
-                txCounter <= txCounter + 1;
+                txCounter <= txCounter + 1'b1;
         end
         TX_STATE_DEBOUNCE: begin
             if (txCounter == 23'b111111111111111111) begin
                 if (sendOnLow == 1) 
                     txState <= TX_STATE_IDLE;
             end else
-                txCounter <= txCounter + 1;
+                txCounter <= txCounter + 1'b1;
         end
     endcase
 end
@@ -206,10 +206,10 @@ always @(posedge clk) begin
                 rxState <= RX_STATE_READ_WAIT;
                 rxCounter <= 1;
             end else 
-                rxCounter <= rxCounter + 1;
+                rxCounter <= rxCounter + 1'b1;
         end
         RX_STATE_READ_WAIT: begin
-            rxCounter <= rxCounter + 1;
+            rxCounter <= rxCounter + 1'b1;
             if ((rxCounter + 1) == DELAY_FRAMES) begin
                 rxState <= RX_STATE_READ;
             end
@@ -217,14 +217,14 @@ always @(posedge clk) begin
         RX_STATE_READ: begin
             rxCounter <= 1;
             dataIn <= {uart_rx, dataIn[7:1]};
-            rxBitNumber <= rxBitNumber + 1;
+            rxBitNumber <= rxBitNumber + 1'b1;
             if (rxBitNumber == 3'b111)
                 rxState <= RX_STATE_STOP_BIT;
             else
                 rxState <= RX_STATE_READ_WAIT;
         end
         RX_STATE_STOP_BIT: begin
-            rxCounter <= rxCounter + 1;
+            rxCounter <= rxCounter + 1'b1;
             if ((rxCounter + 1) == DELAY_FRAMES) begin
                 rxState <= RX_STATE_IDLE;
                 rxCounter <= 0;

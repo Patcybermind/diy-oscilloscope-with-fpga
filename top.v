@@ -9,11 +9,11 @@ module top
 (
     input wire clk,
     
-    input uart_rx,
-    output uart_tx,
+    input wire uart_rx,
+    output wire uart_tx,
     output wire [5:0] led,
-    input btn1,
-    input [7:0] adcIn, // msb is adcIn[7] and lsb is adcIn[0] // TEST PROGRAM
+    
+    input wire [7:0] adcIn, // msb is adcIn[7] and lsb is adcIn[0] // TEST PROGRAM
     output wire adcClk
 );
     assign adcClk = clk;
@@ -46,7 +46,7 @@ module top
         txIntervalCounter <= 0;
         sendOnLow <= 0;
         dataOut <= testNumber;
-        testNumber <= testNumber + 1;
+        testNumber <= testNumber + 1'b1;
     end else begin
         txIntervalCounter <= txIntervalCounter + 1;
         sendOnLow <= 1;
