@@ -7,3 +7,6 @@ then i wrote some verilog which is code that runs on an fpga. An fpga, or a fiel
 while this works not everyone has an fpga and the cheapest decent ones i still consider kind of expensive. 
 
 Thats when i remembered that the raspberry pi pico has pio also known as programmable io which lets you create custom hardware interfaces eg i2c uart spi or such and in my case all i need is a parralel interface with direct access to memory (dma) i started working on this but havent gone very far. If this works this should allow for very cheap medium speed oscilloscopes.
+
+### what can it do so far:
+as of rn itl save 100 8 byte samples and then send them to your computer over serial or it can also send samples in real time but at a lower speed that being limited by the uart connection speed
